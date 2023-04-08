@@ -1,0 +1,5 @@
+---
+# handlers file for selyavi
+- name: Reboot machine
+  ansible.builtin.reboot:
+    reboot_timeout: 15
